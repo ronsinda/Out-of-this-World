@@ -1,5 +1,5 @@
 //
-//  OWViewController.h
+//  OWOuterSpaceTableViewController.h
 //  Out of this World
 //
 //  Created by Ronald Behee on 9/8/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OWViewController : UIViewController
+@interface OWOuterSpaceTableViewController : UITableViewController
+@property (strong,nonatomic) NSMutableArray *planets;
+
 
 @end
